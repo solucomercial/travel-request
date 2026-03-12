@@ -41,9 +41,9 @@ services:
       CORPORATE_DOMAIN: solucoesterceirizadas.com.br
       SMTP_HOST: mailpit
       SMTP_PORT: 1025
-      SMTP_USER: ""
-      SMTP_PASS: ""
-      EMAIL_FROM: noreply@solucoesterceirizadas.com.br
+      SMTP_USER: "onboarding@solucoesterceirizadas.com.br"
+      SMTP_PASS: "Solucoes@2026*"
+      EMAIL_FROM: onboarding@solucoesterceirizadas.com.br
       FRONTEND_URL: http://localhost:3000
     ports:
       - "3333:3333"
