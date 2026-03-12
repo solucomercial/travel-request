@@ -36,7 +36,7 @@ services:
       JWT_ACCESS_SECRET: dev-access-secret-dev-access-secret-1234
       JWT_REFRESH_SECRET: dev-refresh-secret-dev-refresh-secret-1234
       JWT_ACCESS_EXPIRES_IN: 15m
-      JWT_REFRESH_EXPIRES_IN: 7d
+      JWT_REFRESH_EXPIRES_IN: 1d
       COOKIE_SECURE: false
       CORPORATE_DOMAIN: solucoesterceirizadas.com.br
       SMTP_HOST: mailpit
@@ -44,7 +44,7 @@ services:
       SMTP_USER: "onboarding@solucoesterceirizadas.com.br"
       SMTP_PASS: "Solucoes@2026*"
       EMAIL_FROM: onboarding@solucoesterceirizadas.com.br
-      FRONTEND_URL: http://localhost:3000
+      FRONTEND_URL: http://w44s44kkggokkssgkwck4os8.77.37.69.119.sslip.io
     ports:
       - "3333:3333"
 
@@ -57,7 +57,7 @@ services:
     depends_on:
       - backend
     environment:
-      NEXT_PUBLIC_API_URL: http://localhost:3333
+      NEXT_PUBLIC_API_URL: http://uk0cw4o0k8os0s4so8kkwwks.77.37.69.119.sslip.io
     ports:
       - "3000:3000"
 
